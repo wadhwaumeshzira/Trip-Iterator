@@ -1,5 +1,7 @@
 # Trip Iterator
 
+🎥 **[Demo video]((https://drive.google.com/file/d/1cNM8NJyoLjyGr0oJMgrLtwK2RYYa5cp-/view?usp=drive_link))**
+
 A free-form trip description plus a day count goes in, an AI-generated day-by-day
 itinerary comes out as interactive UI — a timeline of stops per day, remove one you
 don't want, drag to reorder within a day. Not a chatbot: the model returns structured
