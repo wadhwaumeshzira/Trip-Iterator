@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --ink: #17222e;
+  --ink-soft: #2a3a4a;
+  --paper: #f6f3ec;
+  --paper-dim: #ece7db;
+  --route: #b8433a;
+  --route-soft: #e7cdc9;
+  --teal: #3c6e64;
+  --teal-soft: #d7e5e1;
+  --gold: #a9821f;
+  --gold-soft: #efe3bf;
+  --text-on-paper: #1d2622;
+  --text-on-paper-muted: #5c6560;
+  --text-on-ink: #ede8dc;
+  --text-on-ink-muted: #a8b0ba;
+  --border: rgba(29, 38, 34, 0.14);
+  --border-strong: rgba(29, 38, 34, 0.28);
+  --radius: 10px;
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  margin: 0;
+  min-height: 100vh;
+}
+
+body {
+  background: var(--ink);
+  color: var(--text-on-ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input, textarea {
+  font-family: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
